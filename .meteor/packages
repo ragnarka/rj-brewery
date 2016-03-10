@@ -33,3 +33,9 @@ matb33:bootstrap-glyphicons
 msavin:jetsetter
 zimme:active-route
 gwendall:auth-client-callbacks
+highcharts:highcharts-meteor
+#clarencel:highcharts-drilldown
+#maazalik:highcharts
+meteor-platform
+#insecure
+# maazalik:highcharts-funnel  # gives error when loaded
