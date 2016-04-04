@@ -3,7 +3,6 @@
 * {margin: 0px; padding: 0px;}
 
 html, body, #__blaze-root {
-    color: darkblue;
     min-height: 100%;
     height: 100%;
 }
@@ -19,52 +18,12 @@ header {
 
 nav {
     width: 100%;
-    height: 80px;
     background-color: #f7f7f7;
-    line-height: 80px;
-    padding-left: 15px;
-    padding-right: 15px;
+    /*line-height: 80px;*/
     border-bottom: 2px solid dimgrey;
 }
 
-
-aside {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 60px;
-    min-height: 100%;
-    height: 100%;
-    background-color: #f7f7f7;
-}
-
-aside ul, aside li {
-    width: 100%;
-    background-color: #f7f7f7;
-}
-
-aside li:hover {
-    cursor: pointer;
-    border-right: 2px solid #aaaaaa;
-}
-
-aside a.menuItem {
-    width: 100%;
-    color: #aaaaaa;
-    padding: 5px;
-    font-size: 2em;
-    text-align: center;
-}
-
-aside a.menuItem:hover {;
-    cursor: pointer;
-    color: dimgrey;
-    text-decoration: none;
-}
-
-.full-wh {
-    height: 100%;
-    width: 100%;
+.section3 {
     background-color: #eaeaea;
 }
 
@@ -83,18 +42,17 @@ aside a.menuItem:hover {;
     font-weight: bold;
 }
 
-
-.container {
-    padding: 3em;
-}
-
 .main-content {
     padding-left: 70px;
 }
 
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
 
 .section1 {
     background-color: #f7f7f7;
+    margin-top: 20px;
 }
 
 .section2 {

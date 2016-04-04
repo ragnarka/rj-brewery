@@ -1,0 +1,16 @@
+ <template name="gaugeDemo">
+ 
+      <h2 class="ui header">Gauge demo</h2>
+     <form id="f" class="ui form">
+         <div class="field">
+             <label>Number of tasks</label>
+             <input type="text" name="allTasks" placeholder="Tasks" value="{{allTasks}}">
+         </div>
+         <div class="field">
+             <label>Number of incomplete tasks</label>
+             <input type="text" name="incompleteTasks" placeholder="Incomplete tasks" value="{{incompleteTasks}}">
+         </div>
+         <button class="ui button" type="submit">Oppdater</button>
+     </form>
+        <div id="chart">{{gaugeChart}}</div>
+  </template>

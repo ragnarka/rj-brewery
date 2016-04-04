@@ -1,0 +1,17 @@
+{
+    "mainHeading": "Welcome!",
+
+    "admNavHomeBtn": "Home",
+    "admNavBrewhouseBtn": "Brewhouse",
+    "admNavRecipeBtn": "Recipe",
+    "admNavBatchBtn": "Batch",
+    "admNavInventoryBtn": "Inventory",
+    "admNavUserBtn": "User",
+    "admNavSettingsBtn": "Settings",
+    "admNavLogOutBtn": "Log out",
+
+    "languageSelectorText": "Language",
+    "nameEN": "English",
+    "nameNO": "Norwegian"
+
+}

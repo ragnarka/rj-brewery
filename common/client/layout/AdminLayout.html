@@ -1,0 +1,12 @@
+<template name="AdminLayout">
+    <div class="ui grid bg-light-gray">
+        <div class="one wide column">
+            {{> AdminNavigation}}
+        </div>
+        <div class="fourteen wide column section1">
+            <div class="ui container">
+                {{> Template.dynamic template=content}}
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,47 @@
+<template name="home">
+    <h1 class="ui header">Home</h1>
+    <div class="ui icon message">
+        <i class="info icon"></i>
+        <div class="content">
+            <div class="header">
+                Get started!
+            </div>
+            <p>Update your data now.</p>
+            <ul class="list">
+                <li>Update your equipment</li>
+                <li>Update your water profile</li>
+            </ul>
+        </div>
+    </div>
+    <div class="ui steps">
+        <a class="active step" href="/a/brewhouse">
+            <i class="fa fa-bank icon"></i>
+            <div class="content">
+                <div class="title">Brewhouse</div>
+                <div class="description">Configure your brewhouse options</div>
+            </div>
+        </a>
+        <a class="step disabled">
+            <i class="cocktail icon"></i>
+            <div class="content">
+                <div class="title">Inventory</div>
+                <div class="description">Update your inventory</div>
+            </div>
+        </a>
+        <a class="step disabled">
+            <i class="bomb icon"></i>
+            <div class="content">
+                <div class="title">Recipies</div>
+                <div class="description">Add recipies</div>
+            </div>
+        </a>
+        <a class="step disabled">
+            <i class="fa fa-cubes icon"></i>
+            <div class="content">
+                <div class="title">Batch</div>
+                <div class="description">Create batch</div>
+            </div>
+        </a>
+    </div>
+    {{>Template.dynamic template="genericTabs" data=tabMenu}}
+</template>

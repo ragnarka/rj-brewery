@@ -1,0 +1,12 @@
+<template name="genericTabs">
+    <div class="ui top attached tabular menu">
+        {{#each menuItems}}
+            <a href="{{menuLink}}" class="{{#if active}}active{{/if}} item" data-template="{{template}}">
+                <i class="fa fa-{{menuIcon}} medium"></i>
+            </a>
+        {{/each}}
+    </div>
+    <div class="ui bottom attached segment">
+        {{> Template.dynamic template=viewTemplate}}
+    </div>
+</template>

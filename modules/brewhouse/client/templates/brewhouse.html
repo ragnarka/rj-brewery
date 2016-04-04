@@ -1,0 +1,13 @@
+<template name="brewhouse">
+    <h1 class="ui header">{{_ "brewhouse_pageTitle"}}</h1>
+    <div class="ui icon message">
+        <i class="beer icon"></i>
+        <div class="content">
+            <div class="header">
+                {{_ "brewhouse_infobox_header"}}
+            </div>
+            {{{_ "brewhouse_infobox_msg"}}}
+        </div>
+    </div>
+    {{>Template.dynamic template="genericTabs" data=tabMenu}}
+</template>

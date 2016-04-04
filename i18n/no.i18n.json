@@ -1,0 +1,16 @@
+{
+    "mainHeading": "Velkommen!",
+
+    "admNavHomeBtn": "Hjem",
+    "admNavBrewhouseBtn": "Bryggehus",
+    "admNavRecipeBtn": "Oppskrift",
+    "admNavBatchBtn": "Batch",
+    "admNavInventoryBtn": "Lagerhåndtering",
+    "admNavUserBtn": "Bruker",
+    "admNavSettingsBtn": "Innstillinger",
+    "admNavLogOutBtn": "Logg ut",
+
+    "languageSelectorText": "Språk",
+    "nameEN": "Engelsk",
+    "nameNO": "Norsk"
+}

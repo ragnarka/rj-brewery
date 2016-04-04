@@ -12,11 +12,11 @@ session                 # Client-side reactive dictionary for your app
 jquery                  # Helpful client-side library
 tracker                 # Meteor's client-side reactive programming library
 
-standard-minifiers      # JS/CSS minifiers run for production mode
 es5-shim                # ECMAScript 5 compatibility for older browsers.
 ecmascript              # Enable ECMAScript2015+ syntax in app code
-
 check
+meteor-platform
+
 kadira:flow-router
 kadira:blaze-layout
 erasaur:meteor-lodash
@@ -25,17 +25,16 @@ fortawesome:fontawesome
 spiderable
 fastclick
 raix:handlebar-helpers
-aldeed:collection2
-aldeed:autoform
 accounts-ui
 accounts-password
 matb33:bootstrap-glyphicons
 msavin:jetsetter
 zimme:active-route
 gwendall:auth-client-callbacks
-highcharts:highcharts-meteor
-#clarencel:highcharts-drilldown
-#maazalik:highcharts
-meteor-platform
-#insecure
-# maazalik:highcharts-funnel  # gives error when loaded
+tap:i18n
+flemay:less-autoprefixer
+semantic:ui
+jagi:astronomy
+jagi:astronomy-validators
+standard-minifier-css
+standard-minifier-js

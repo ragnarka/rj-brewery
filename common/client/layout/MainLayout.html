@@ -1,0 +1,33 @@
+<template name="MainLayout">
+
+    <header>
+        <nav>
+            <div class="ui secondary menu">
+                <div class="ui text container">
+                    <div class="header item">
+                        <i class="fa fa-beer medium"></i>
+                        RJ Brewery
+                    </div>
+                    <a class="item">Home</a>
+                    <div class="right menu">
+                        <div class="ui dropdown item">
+                            <i class="fa fa-language medium"></i>
+                            <div class="menu">
+
+                                <a href="" class="item btnChangeLanguage" data-lang="en">{{_ "nameEN"}} (English)</a>
+                                <a href="" class="item btnChangeLanguage" data-lang="no">{{_ "nameNO"}} (Norwegian)</a>
+                            </div>
+                        </div>
+                        <a href="/a" class="item" title="Sign in"><i class="fa fa-sign-in medium"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container section1">
+        <h1>{{_ "mainHeading"}}</h1>
+
+
+        <button class="ui button">Follow</button>
+    </div>
+</template>
