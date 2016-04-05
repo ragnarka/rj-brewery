@@ -1,4 +1,4 @@
-import {Module} from '/lib/Module';
+import {Module} from '/lib/module';
 
 export let Brewhouse = (function (Module) {
 
